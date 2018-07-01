@@ -41,7 +41,9 @@ class App extends Component {
 
     return (
       <Aux>
-        <Header title={this.state.title} />
+        <Header 
+          icon="fas fa-clock"
+          title={this.state.title} />
         <Clock 
           changed={this.showDateHandler}
           date={this.state.date} 
