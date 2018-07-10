@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Aux from './components/AuxWrap';
 import Header from './components/Header';
 import Clock from './components/Clock';
+import Footer from './components/Footer';
 
 class App extends Component {
   state = {
@@ -49,6 +50,7 @@ class App extends Component {
           date={this.state.date} 
           showDate={this.state.showDate} 
           options={options} />
+        <Footer />
       </Aux>
     );
   }
