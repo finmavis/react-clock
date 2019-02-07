@@ -4,8 +4,8 @@
   "private": true,
   "homepage": "https://finmavis.github.io/react-clock",
   "dependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
@@ -16,7 +16,14 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
   "devDependencies": {
-    "gh-pages": "^1.2.0"
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react-hooks": "^1.0.1",
+    "gh-pages": "^1.2.0",
+    "prettier": "^1.16.1"
   }
 }
