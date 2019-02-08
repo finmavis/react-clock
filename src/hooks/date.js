@@ -16,7 +16,7 @@ const useDate = () => {
     // And skip on ComponenDidupdate
   }, []);
 
-  return { date };
+  return date;
 };
 
 export default useDate;
