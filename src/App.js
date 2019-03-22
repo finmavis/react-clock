@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react';
+import React, { useState, Fragment, memo } from 'react';
 
 import Header from './components/Header';
 import Clock from './components/Clock';
@@ -16,4 +16,4 @@ const App = props => {
   );
 };
 
-export default App;
+export default memo(App);
